@@ -11,54 +11,40 @@ body{
 
 /* HEADER COMPONENTS */
 
+header{
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: right;
+ 
+
+}
+
 #logo{
     padding-left: 10px;
     height: 50px;
     display: inline-block;
     float: left;
 }
-.header{
-    width: 100%;
-    height: 69px;
-    display: inline;
-    border-bottom: 1px solid seashell;
-    display: inline-block;
+
+ul{
+    display: inline-flex;
+    justify-content: right;
+    padding-right: 50px;
+    margin-right: 50px;
     text-decoration: underline;
-    text-align: end;
-    float:right; 
-    font-family: Helvetica, sans-serif;
-    font-size: 22px;
-    color: seashell;
-    background-color: black;
-    opacity: 0.9;
-
+    list-style: none;
 
 }
 
-#header-list{
-    display: inline;
-    text-decoration: underline;
-    word-spacing: 50px;
-    font-family: Helvetica, sans-serif;
-    font-size: 22px;
-    color: seashell;
-    background-color: black;
-    opacity: 0.9;
-
-   
-
-}
-
-#mission{
-
-}
-
-#featured-tea{
-
-}
-
-#locations{
-
+li{
+    padding-left: 25px;
 }
 
 /* MISSION SECTION */
