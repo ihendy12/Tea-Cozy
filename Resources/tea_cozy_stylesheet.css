@@ -1,0 +1,57 @@
+/* ENTIRE PAGE */
+
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+
+/* HEADER COMPONENTS */
+
+#logo{
+    padding-left: 10px;
+    height: 50px;
+    display: inline-block;
+}
+.header{
+    width: auto;
+    display: inline;
+    border-bottom: 1px solid seashell;
+
+}
+
+.header-links{
+    display: inline-block;
+    text-decoration: underline;
+    text-align: end;
+
+    /* position: fixed; */
+
+
+}
+
+#mission{
+
+}
+
+#featured-tea{
+
+}
+
+#locations{
+
+}
+
+/* MISSION SECTION */
+
+.mission{
+    
+    background-image: url("/Users/ianhenderson/Documents/Codecademy/Tea Cozy/Resources/images/background.jpeg");
+    height: 700px;
+    width: 1200px;
+    align-content:flex-end;
+
+}
