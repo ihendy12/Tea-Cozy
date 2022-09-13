@@ -15,13 +15,14 @@ header{
     height: 69px;
     width: 100%;
     border-bottom: 1px solid seashell;
-    position: fixed;
+    position: sticky;
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
     text-align: right;
+    margin-bottom: 1px;
  
 
 }
@@ -49,13 +50,27 @@ li{
 
 /* MISSION SECTION */
 
-.mission{
+#mission{
     
     background-image: url("/Users/ianhenderson/Documents/Codecademy/Tea Cozy/Resources/images/background.jpeg");
-    height: 700px;
+    min-height: 700px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#middle-banner{
+    border: 1px solid black;
     width: 1200px;
-    align-content:flex-end;
-    padding-left: 50px;
-    padding-right: 50px;
+    text-align: center;
+    background-color: black;
+    height: 130px;
+    margin-top: 0%;
+    box-sizing: border-box;
+
 
 }
