@@ -66,11 +66,56 @@ li{
 #middle-banner{
     border: 1px solid black;
     width: 1200px;
+    height: 130px;
     text-align: center;
     background-color: black;
-    height: 130px;
     margin-top: 0%;
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;;
+
+}
+
+/* FEATURED TEA SECTION */
+
+#featured-tea{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+
+
+#featured-tea-banner{
+    border: 1px solid black;
+    width: 1000px;
+    text-align: center;
+    background-color: black;
+    margin-top: 0%;
+    box-sizing: border-box;
+    padding-top: 25px;
+    margin: 0px;;
+}
+
+.featured-tea-list{
+    display: flex
+}
+#featured-tea-photos{
+    display:inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+#img-size{
+    height: 200px;
+    width: 300px;
+    padding-bottom: 10px;
+    display: inline-flex;
 
 
 }
